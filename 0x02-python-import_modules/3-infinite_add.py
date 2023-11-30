@@ -7,6 +7,5 @@ if __name__ == "__main__":
         total = sum(numbers)
         print(total)
 
-
     argv = sys.argv[1:]
     infinite_add(argv)
