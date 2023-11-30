@@ -16,4 +16,3 @@ if __name__ == "__main__":
 argc = len(sys.argv) - 1
 argv = sys.argv[1:]
 arg_count(argc, argv)
-
