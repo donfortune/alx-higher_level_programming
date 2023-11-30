@@ -1,2 +1,6 @@
 #!/usr/bin/python3
-curl -Lso "hidden_4.pyc" "https://github.com/alx-tools/0x02.py/raw/master/hidden_4.pyc"
+if __name__ == "__main__":
+    import hidden_4
+    for name in dir(hidden_4):
+        if name[0] != '_' and name[1] != '_':
+            print(name)
