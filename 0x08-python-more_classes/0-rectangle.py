@@ -4,5 +4,3 @@ class Rectangle:
     pass
 
 
-my_rectangle = Rectangle()
-print(type(my_rectangle))
