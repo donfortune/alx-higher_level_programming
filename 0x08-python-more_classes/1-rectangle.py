@@ -43,4 +43,3 @@ class Rectangle:
 
 
 Rec = Rectangle(0, 0)
-
